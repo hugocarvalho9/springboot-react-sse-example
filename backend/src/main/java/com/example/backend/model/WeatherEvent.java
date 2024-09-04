@@ -7,6 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class WeatherEvent {
 
+    private String eventId;
     private String location;
     private String condition;
     private double temperature;
